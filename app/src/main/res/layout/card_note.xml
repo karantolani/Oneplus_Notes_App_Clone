@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="4dp"
+    app:cardBackgroundColor="@color/card_bg_color"
+    android:clickable="true"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    app:cardCornerRadius="12dp"
+    android:background="@drawable/card_ripple"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:maxLines="1"
+            android:scrollbars="none"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="#E6FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_note_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/text_note_title"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text=""
+            android:fontFamily="@font/roboto"
+            android:maxLines="1"
+            android:scrollbars="none"
+            android:textColor="#80FFFFFF"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <TextView
+            android:id="@+id/text_note_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto"
+            android:text=""
+            android:textColor="#80FFFFFF"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_note_title" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:visibility="invisible"
+            android:clickable="false"
+            android:enabled="false"
+            android:button="@drawable/checkbox_check_selector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

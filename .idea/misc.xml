@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable-v24/button_ripple.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/add_notes.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/btn_enable_selector.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/button_bg.xml" value="0.3005" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/cancel.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/card_ripple.xml" value="0.3575" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/check_box-48px.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/check_box_checked.xml" value="0.2" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/check_box_unchecked.xml" value="0.3575" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/checkbox_check_selector.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.3575" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_iconmonstr_checkbox_8__1_.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/no_results.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/plus.xml" value="0.195" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/red_cursor.xml" value="0.2995" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/drawable/tick.xml" value="0.196" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_add_note.xml" value="0.25" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/layout/activity_search.xml" value="0.18" />
+        <entry key="..\:/Users/karan/AndroidStudioProjects/Notes/app/src/main/res/layout/card_note.xml" value="0.39285714285714285" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
